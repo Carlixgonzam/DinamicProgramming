@@ -3,3 +3,6 @@ def contar_bits(n: int) -> list:
     for i in range(1, n + 1):
         contador.append(contador[i // 2] + i % 2)
     return contador
+
+num=5
+print(contar_bits(num))
