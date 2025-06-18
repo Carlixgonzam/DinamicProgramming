@@ -9,4 +9,4 @@ def generate(numRows: int)->list:
     return resp
 
 numRows=5
-print(generate)
+print(generate(numRows))
